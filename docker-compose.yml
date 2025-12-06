@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  chat:
+    # build:
+    #   context: .
+    #   dockerfile: ./Dockerfile
+    image: levikaw/rag-bot:1.0.0
+    ports:
+      - 5000:5000
+    networks:
+      - chat-network
+
+networks:
+  chat-network:
+    driver: bridge
