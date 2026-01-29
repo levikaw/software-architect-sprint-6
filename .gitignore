@@ -6,6 +6,8 @@ __pycache__/
 # C extensions
 *.so
 
+.DS_Store
+
 # Distribution / packaging
 .Python
 build/
@@ -81,6 +83,10 @@ target/
 # IPython
 profile_default/
 ipython_config.py
+
+.models
+.chroma
+knowledge_base
 
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is

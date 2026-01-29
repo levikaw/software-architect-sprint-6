@@ -1,0 +1,9 @@
+Project_template.md
+.venv
+.git
+.gitignore
+.DS_Store 
+__pycache__
+README.md
+vectorizer.ipynb
+collector.py
